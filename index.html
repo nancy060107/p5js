@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>p5.js 작품 모음</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2열 */
+            gap: 20px; /* 칸 사이 간격 */
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .project a {
+            display: block;
+            padding: 20px;
+            background: #f0f0f0;
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        .project a:hover {
+            background: #e2e2e2;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>나의 p5.js 작품</h1>
@@ -21,6 +45,12 @@
         </div>
 
         <div class="project">
+            <a href="project4/index.html">
+                프로젝트 4: 자신이 만든 아트 작품에 시간에 따른 움직임을 부여하자.
+            </a>
+        </div>
+
+        <div class="project">
             <a href="project2/index.html">
                 프로젝트 2: 자신의 캐리커처를 그려보자.
             </a>
@@ -29,12 +59,6 @@
         <div class="project">
             <a href="project3/index.html">
                 프로젝트 3: 자신의 캐리커처에 움직임을 부여하자.
-            </a>
-        </div>
-
-        <div class="project">
-            <a href="project4/index.html">
-                프로젝트 4: 자신이 만든 아트 작품에 시간에 따른 움직임을 부여하자.
             </a>
         </div>
 
